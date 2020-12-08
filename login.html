@@ -1,0 +1,212 @@
+<html>
+<head>
+<title>Flipkart</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<div class="container-fluid">
+	   <div class="row header">
+            <div class="col-md-12 col-12 bg-header">
+                <nav class="navbar navbar-expand-lg navbar-light">
+						<div class="hf-blank">
+						</div>
+					  <a class="navbar-brand" href="index.html"><img src="image/logo.png" width="" height="20px"><br>
+						<p class="head-title">Explore <span>Plus</span><img src="image/logo-str.png" width="10px" height="10px"></p></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">	
+						  <li class="nav-item active">
+							  <div class="search-input">
+									<div class="s-in">
+										<form class="form-inline my-2 my-lg-0">
+										  <input class="form-control mr-md-2 pr-5 d-block" type="search" placeholder="Search for products, brands and more" style="width:490px;" aria-label="Search" />
+										</form>
+									</div>
+									<div class="s-icon">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</div>
+								</div>
+						  </li>
+						
+						
+						<li class="nav-item pl-4">
+                                <div class="more">
+                                    <div class="dropdown">
+									  <button class="btn bg-header text-white dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										more
+									  </button>
+									  <div class="dropdown-menu dbt" aria-labelledby="dropdownMenu2">
+										<a href="contact.html"><button class="dropdown-item bt text-capitalize" type="button"><i class="fa fa-address-book color-bg" aria-hidden="true"></i>&nbsp; &nbsp; Contact us</button></a>
+										<a href="about.html"><button class="dropdown-item bt text-capitalize" type="button"><i class="fa fa-medkit color-bg" aria-hidden="true"></i>&nbsp; &nbsp; About us</button></a>
+										<a href="contact.html"><button class="dropdown-item bt text-capitalize" type="button"><i class="fa fa-info-circle color-bg" aria-hidden="true"></i>&nbsp; &nbsp; 24x7customer support</button></a>
+										<a href="contact.html"><button class="dropdown-item bt text-capitalize" type="button"><i class="fa fa-line-chart color-bg" aria-hidden="true"></i>&nbsp; &nbsp; Need help</button></a>
+										<a href="#"><button class="dropdown-item bt text-capitalize" type="button"><i class="fa fa-download color-bg" aria-hidden="true"></i>&nbsp; &nbsp;download app</button></a>
+									  </div>
+									</div>
+                                </div>
+								
+                            </li>
+						<li class="nav-item pl-4">
+							<div class="cart">
+								<div class="cart-icon">
+									<a class="nav-link" href="cart.html" tabindex="1" aria-disabled="true"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a>
+								</div>
+								
+							</div>
+						</li>
+						<li class="nav-item pl-5">
+							<div class="h-blank">
+							</div>
+						</li>
+						</ul>
+				</div>
+			</nav>		
+		</div>
+	</div>
+	<div class="row hide">
+					<div class="logo2 col-md-12 col-12 col-xs-12 col-sm-12">
+						<span style="font-size:30px;cursor:pointer color:#fff; " onclick="openNav()"><a href="#">&#9776;</a></span>
+						<a class="navbar-brand text-left" style="line-height:5px;" href="#"><img src="image/logo.png" width="80px" height="auto"><br>
+                            <p class="head-title" style="font-size:10px;cursor:pointer color:#fff; ">Explore <span>Plus</span><img src="image/logo-str.png" width="10px" height="10px"></p>
+                        </a>
+					</div>
+			<div id="mySidenav" class="sidenav hide">
+				<a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+				<a class="nav-item" href="index.html">Home</a>
+				<a class="nav-item" href="login.html">Login</a>
+				<a class="nav-item" href="product.html">offers</a>
+				<a class="nav-item" href="contact.html">Contact us</a>
+				<a class="nav-item" href="about.html">About us</a>
+				<a class="nav-item" href="product.html">Top offers</a>
+				<a class="nav-item" href="product.html">trending offers</a>
+				<a class="nav-item" href="login.html">My account</a>
+						
+			</div>
+		</div>
+	<div class="row mt-4">
+		<div class="col-md-5 offset-md-3 col-10 offset-1 col-sm-8">
+			<div class="row mr-auto  w-login">
+				<div class="col-md-5 col-sm-12 col-12 col-xs-12 login-text">
+					<span class="l-title">login</span>
+					<p>Get acess to your Orders, Wishlist and Recommendations</p>
+				</div>
+				<div class="col-md-7 col-sm-12 col-12 col-xs-12 login-form">
+					<form>
+						<div class="log-form p-rel1">
+							<input type="text" onclick="lab();" id="mobile" autocomplete="off" class="log-m" value="">
+							<span class="pt-2"></span>
+							<label class="label-mail"  id="m-label"><span>Enter Email/Mobile number</span></label>
+						</div>
+						<div class="log-form pt-5 p-rel2" id="pad">
+							<input type="password" id="pass" onclick="lan();" autocomplete="off" class="log-p" value="">
+							
+							<label class="label-pass" id="p-label"><span>Enter Your password	</span>
+							<span class="l-forget"></label>
+						</div>
+						<div class="pt-4 pb-2 text-capitalize">
+							<span><input type="checkbox" onclick="show();"> show password</span>
+						</div>
+						<button class="log-l" onclick="login()"  type="submit"><span>Login</span></button>
+						<div class="l-or text-center">OR</div>
+						<button class="log-otp" onclick="alert('Enter your mobile number or mail ID first')">Request OTP</button>
+						<div class="signup"><a class="signup-new" onclick="alert('Registration revoked please try again after some time')" href="#">New to Flipkart? Create an account</a></div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	  
+	  
+        <div class="footer">
+            <div class="row footer footer-top">
+                <div class="col-md-2 col-sm-4 col-6">
+                    <p class="foot-head">ABOUT</p>
+                    <p class=""><a href="contact.html">Contact us</a></p>
+                    <p class=""><a href="about.html">About us</a></p>
+                    <p class=""><a href="contact.html">Carrers</a></p>
+                    <p class=""><a href="about.html">Flipart stories</a></p>
+                    <p class=""><a href="about.html">Press</a></p>
+                    <p class=""><a href="about.html">Flipart sales</a></p>
+
+                </div>
+                <div class="col-md-2 col-sm-4 col-6">
+                    <p class="foot-head">Help</p>
+                    <p class=""><a href="contact.html">Payments</a></p>
+                    <p class=""><a href="contact.html">Shipping</a></p>
+                    <p class=""><a href="contact.html">Cancellation &amp; Returns</a></p>
+                    <p class=""><a href="contact.html">FAQ</a></p>
+                    <p class=""><a href="contact.html">Report Infringment</a></p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6">
+                    <p class="foot-head">Policy</p>
+                    <p class=""><a href="about.html">Returnc Policy</a></p>
+                    <p class=""><a href="about.html">Terms of use</a></p>
+                    <p class=""><a href="about.html">Security</a></p>
+                    <p class=""><a href="about.html">Privacy</a></p>
+                    <p class=""><a href="about.html">Sitemap</a></p>
+                    <p class=""><a href="about.html">EPR Compliance</a></p>
+                </div>
+                <div class="col-md-2 col-sm-2 col-6">
+                    <p class="foot-head">Social</p>
+                    <p class=""><a href="#">Facebook</a></p>
+                    <p class=""><a href="#">Twitter</a></p>
+                    <p class=""><a href="#">Youtube</a></p>
+                </div>
+                <div class="col-md-2 col-sm-5 col-12">
+                    <p class="foot-head">Mail us</p>
+                    <p class="f-add">Flipkart Internet Private Limited,
+                        Buildings Alyssa, Begonia &
+                        Clove Embassy Tech Village,
+                        Outer Ring Road, Devarabeesanahalli Village,
+                        Bengaluru, 560103,
+                        Karnataka, India
+                    </p>
+                </div>
+                <div class="col-md-2 col-sm-5 col-12 f-ad">
+                    <p class="foot-head">Registered Office address</p>
+                    <p class="f-add">Flipkart Internet Private Limited,
+                        Buildings Alyssa, Begonia &
+                        Clove Embassy Tech Village,
+                        Outer Ring Road, Devarabeesanahalli Village,
+                        Bengaluru, 560103,
+                        Karnataka, India
+                        CIN : U51109KA2012PTC066107</p>
+                </div>
+            </div>
+			
+            <div class="row footer-bottom footer">
+                <div class="col-md-12 pl-5">
+                    <ul class="f-btm">
+                        <li><a href="#"><img src="image/sell.svg"><a href="#"> Sell on flipkart</a></li>
+                        <li><a href="#"><img src="image/advertise.svg"> Advertise</a></li>
+                        <li><a href="#"><img src="image/g-card.svg"> Gift card</a></li>
+                        <li><a href="#"><img src="image/help-center.svg"> Help-center</a></li>
+                        <li><a href="#">&copy; 2007-2020 Flipkart.com</a></li>
+                        <li><img src="image/payment-m.svg" width="auto"></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+</div>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="js/script.js"></script>
+<script>
+
+// js for side navigation
+
+
+
+
+
+
+</script>
+</body>
+</html>

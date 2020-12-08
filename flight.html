@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Flipkart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+   <div class="row header">
+            <div class="col-md-12 col-12 bg-header">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="hf-blank">
+                    </div>
+                    <div class="logo">
+                        <a class="navbar-brand pt-3" href="index.html"><img src="image/logo.png" width="" height="19px"><br>
+                            <p class="head-title">Explore <span>Plus</span><img src="image/logo-str.png" width="10px"
+                                    height="10px"></p>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <div class="search-input">
+                                    <div class="s-in">
+                                        <form class="form-inline my-2 my-lg-0">
+                                            <input class="form-control mr-md-2 pr-5 d-block" type="search"
+                                                placeholder="Search for products, brands and more" style="width:490px;"
+                                                aria-label="Search" />
+                                        </form>
+                                    </div>
+                                    <div class="s-icon">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item pl-4">
+                                <div class="log">
+                                    <div class="l-text">
+                                        <a class="nav-item p-3 text-center" href="login.html" onclick="openNav()">Login</a>
+                                        <div id="myNav" class="overlay">
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="nav-item pl-4">
+                                <div class="more">
+                                    <div class="dropdown">
+									  <button class="btn bg-header text-white dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										more
+									  </button>
+									  <div class="dropdown-menu dbt" aria-labelledby="dropdownMenu2">
+										<a href="contact.html"><button class="dropdown-item bt text-capitalize" type="button"><i class="fa fa-address-book color-bg" aria-hidden="true"></i>&nbsp; &nbsp; Contact us</button></a>
+										<a href="about.html"><button class="dropdown-item bt text-capitalize" type="button"><i class="fa fa-medkit color-bg" aria-hidden="true"></i>&nbsp; &nbsp; About us</button></a>
+										<a href="contact.html"><button class="dropdown-item bt text-capitalize" type="button"><i class="fa fa-info-circle color-bg" aria-hidden="true"></i>&nbsp; &nbsp; 24x7customer support</button></a>
+										<a href="contact.html"><button class="dropdown-item bt text-capitalize" type="button"><i class="fa fa-line-chart color-bg" aria-hidden="true"></i>&nbsp; &nbsp; Need help</button></a>
+										<a href="#"><button class="dropdown-item bt text-capitalize" type="button"><i class="fa fa-download color-bg" aria-hidden="true"></i>&nbsp; &nbsp;download app</button></a>
+									  </div>
+									</div>
+                                </div>
+								
+                            </li>
+                            <li class="nav-item pl-4">
+                                <div class="cart">
+                                    <div class="cart-icon">
+                                        <a class="nav-link" href="cart.html" tabindex="1" aria-disabled="true"><i
+                                                class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a>
+
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="nav-item pl-5">
+                                <div class="h-blank">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+		<div class="row hide">
+					<div class="logo2 col-md-12 col-12 col-xs-12 col-sm-12">
+						<span style="font-size:30px;cursor:pointer color:#fff; " onclick="openNav()"><a href="#">&#9776;</a></span>
+						<a class="navbar-brand text-left" style="line-height:5px;" href="#"><img src="image/logo.png" width="80px" height="auto"><br>
+                            <p class="head-title" style="font-size:10px;cursor:pointer color:#fff; ">Explore <span>Plus</span><img src="image/logo-str.png" width="10px" height="10px"></p>
+                        </a>
+					</div>
+			<div id="mySidenav" class="sidenav hide">
+				<a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+				<a class="nav-item" href="index.html">Home</a>
+				<a class="nav-item" href="login.html">Login</a>
+				<a class="nav-item" href="product.html">offers</a>
+				<a class="nav-item" href="contact.html">Contact us</a>
+				<a class="nav-item" href="about.html">About us</a>
+				<a class="nav-item" href="product.html">Top offers</a>
+				<a class="nav-item" href="product.html">trending offers</a>
+				<a class="nav-item" href="login.html">My account</a>
+						
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="flights">
+					<div class="f-img">
+						<img src="image/flight1.jpg" alt="fight are gone">
+					</div>
+					<div class="row f-box">
+						<div class="col-md-12 col-12 col-sm-12">
+							<form>
+								<span class="fl-c way">
+									<input type="radio" name="one" /> one way
+									<input type="radio" name="one" /> round trip
+								</span>
+								<span class="fl-c from">
+									<input type="text" id="form-i" onclick="fro();" />
+									<label id="form-label">from</label>
+								</span>
+								<span class="fl-c symbol">
+									<span class="s-left">&#8636;</span>
+									<span class="s-right">&#8641;</span>
+								</span>
+								<span class="fl-c to">
+									<input type="text" onclick="fortop();" id="to-i" />
+									<label id="to-label">to</label>
+								</span>
+								<span class="fl-c f-date">
+									<input type="date" value="" />
+								</span>
+								
+								<span class="fl-c f-search">
+									<input type="submit" onclick="alert('No flights at this moment')" value="search">
+								</span>
+							</form>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-12 col-sm-12 bank-sec">
+				<h2 class="font-weight-bold">bank offers</h2>
+				<div class="bank-img">
+					<img src="image/flight2.jpg" alt="you got an error please fix image">
+					<img src="image/flight3.jpg" alt="you got an error please fix image">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-12 col-sm-12">
+				<h2 class="font-weight-bold p-4 text-capitalize">your safety is important to us</h2>
+				<div class="bank-img">
+					<img src="image/flight4.jpg" alt="you got an error please fix image">
+					<img src="image/flight5.jpg" alt="you got an error please fix image">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-12 col-sm-12">
+				<div class="f-foot-sec">
+					<p>Now travelling by plane to an exotic place won't be an expensive affair, as you can do your flight booking for cheap on Flipkart. So, if you keep looking at the stunning photos of your dream destination every day, and get sad thinking that you won't be able to afford the plane tickets to that place, then don't' worry, as you can rely on the site to help you fulfil your wish. You can check the flight ticket prices for that exact destination on the site. If it's an international destination, then you can check several options such as timings, layover airports, etc. Once you decide which airline to select, you can book your air tickets for that location on the site. You can do flight bookings at the best prices for Indian cities too. If you want to make the prices of your cheap air tickets even more budget-friendly, then you can take advantage of the flight offer codes. These flight ticket offers are laid out by the site to make your online flight booking experience more profitable and less stressful. You can also use the EMI option to book cheap flight tickets. You can check for this option on the site and apply it wherever it is applicable. The information you are reading has been last updated on 28-Sep-20.</p>
+				</div>
+			</div>
+		</div>
+        <div class="footer">
+            <div class="row footer footer-top">
+                <div class="col-md-2 col-sm-4 col-6">
+                    <p class="foot-head">ABOUT</p>
+                    <p class=""><a href="contact.html">Contact us</a></p>
+                    <p class=""><a href="about.html">About us</a></p>
+                    <p class=""><a href="contact.html">Carrers</a></p>
+                    <p class=""><a href="about.html">Flipart stories</a></p>
+                    <p class=""><a href="about.html">Press</a></p>
+                    <p class=""><a href="about.html">Flipart sales</a></p>
+
+                </div>
+                <div class="col-md-2 col-sm-4 col-6">
+                    <p class="foot-head">Help</p>
+                    <p class=""><a href="contact.html">Payments</a></p>
+                    <p class=""><a href="contact.html">Shipping</a></p>
+                    <p class=""><a href="contact.html">Cancellation &amp; Returns</a></p>
+                    <p class=""><a href="contact.html">FAQ</a></p>
+                    <p class=""><a href="contact.html">Report Infringment</a></p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6">
+                    <p class="foot-head">Policy</p>
+                    <p class=""><a href="about.html">Returnc Policy</a></p>
+                    <p class=""><a href="about.html">Terms of use</a></p>
+                    <p class=""><a href="about.html">Security</a></p>
+                    <p class=""><a href="about.html">Privacy</a></p>
+                    <p class=""><a href="about.html">Sitemap</a></p>
+                    <p class=""><a href="about.html">EPR Compliance</a></p>
+                </div>
+                <div class="col-md-2 col-sm-2 col-6">
+                    <p class="foot-head">Social</p>
+                    <p class=""><a href="#">Facebook</a></p>
+                    <p class=""><a href="#">Twitter</a></p>
+                    <p class=""><a href="#">Youtube</a></p>
+                </div>
+                <div class="col-md-2 col-sm-5 col-12">
+                    <p class="foot-head">Mail us</p>
+                    <p class="f-add">Flipkart Internet Private Limited,
+                        Buildings Alyssa, Begonia &
+                        Clove Embassy Tech Village,
+                        Outer Ring Road, Devarabeesanahalli Village,
+                        Bengaluru, 560103,
+                        Karnataka, India
+                    </p>
+                </div>
+                <div class="col-md-2 col-sm-5 col-12 f-ad">
+                    <p class="foot-head">Registered Office address</p>
+                    <p class="f-add">Flipkart Internet Private Limited,
+                        Buildings Alyssa, Begonia &
+                        Clove Embassy Tech Village,
+                        Outer Ring Road, Devarabeesanahalli Village,
+                        Bengaluru, 560103,
+                        Karnataka, India
+                        CIN : U51109KA2012PTC066107</p>
+                </div>
+            </div>
+			
+            <div class="row footer-bottom footer">
+                <div class="col-md-12 pl-5">
+                    <ul class="f-btm">
+                        <li><a href="#"><img src="image/sell.svg"><a href="#"> Sell on flipkart</a></li>
+                        <li><a href="#"><img src="image/advertise.svg"> Advertise</a></li>
+                        <li><a href="#"><img src="image/g-card.svg"> Gift card</a></li>
+                        <li><a href="#"><img src="image/help-center.svg"> Help-center</a></li>
+                        <li><a href="#">&copy; 2007-2020 Flipkart.com</a></li>
+                        <li><img src="image/payment-m.svg" width="auto"></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+</div>
+<script src="js/script.js"></script>
+<script>
+
+
+</script>
+</body>
+</html>

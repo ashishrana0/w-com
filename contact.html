@@ -1,0 +1,336 @@
+<html>
+<head>
+<title>Flipkart</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<div class="container-fluid">
+	   <div class="row header">
+            <div class="col-md-12 col-12 bg-header">
+                <nav class="navbar navbar-expand-lg navbar-light">
+						<div class="hf-blank">
+						</div>
+					  <a class="navbar-brand" href="index.html"><img src="image/logo.png" width="" height="20px"><br>
+						<p class="head-title">Explore <span>Plus</span><img src="image/logo-str.png" width="10px" height="10px"></p></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">	
+						  <li class="nav-item active ">
+							<div class="search-input text-left contact-div">
+								Help center	
+							</div>
+						  </li>
+						<li class="nav-item pl-4">
+							<div class="log">
+								<div class="l-text">
+									<a class="nav-item p-3 text-center" href="login.html">Login</a>
+								</div>
+
+							</div>
+						</li>
+						<li class="nav-item pl-4">
+                                <div class="more">
+                                    <div class="dropdown">
+									  <button class="btn bg-header text-white dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										more
+									  </button>
+									  <div class="dropdown-menu dbt" aria-labelledby="dropdownMenu2">
+										<a href="contact.html"><button class="dropdown-item bt text-capitalize" type="button"><i class="fa fa-address-book color-bg" aria-hidden="true"></i>&nbsp; &nbsp; Contact us</button></a>
+										<a href="about.html"><button class="dropdown-item bt text-capitalize" type="button"><i class="fa fa-medkit color-bg" aria-hidden="true"></i>&nbsp; &nbsp; About us</button></a>
+										<a href="contact.html"><button class="dropdown-item bt text-capitalize" type="button"><i class="fa fa-info-circle color-bg" aria-hidden="true"></i>&nbsp; &nbsp; 24x7customer support</button></a>
+										<a href="contact.html"><button class="dropdown-item bt text-capitalize" type="button"><i class="fa fa-line-chart color-bg" aria-hidden="true"></i>&nbsp; &nbsp; Need help</button></a>
+										<a href="#"><button class="dropdown-item bt text-capitalize" type="button"><i class="fa fa-download color-bg" aria-hidden="true"></i>&nbsp; &nbsp;download app</button></a>
+									  </div>
+									</div>
+                                </div>
+								
+                            </li>
+						<li class="nav-item pl-4">
+							<div class="cart">
+								<div class="cart-icon">
+									<a class="nav-link" href="cart.html" tabindex="1" aria-disabled="true"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a>
+								</div>
+								
+							</div>
+						</li>
+						<li class="nav-item pl-5">
+							<div class="h-blank">
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>		
+		</div>
+	</div>
+	<div class="row hide">
+					<div class="logo2 col-md-12 col-12 col-xs-12 col-sm-12">
+						<span style="font-size:30px;cursor:pointer color:#fff; " onclick="openNav()"><a href="#">&#9776;</a></span>
+						<a class="navbar-brand text-left" style="line-height:5px;" href="#"><img src="image/logo.png" width="80px" height="auto"><br>
+                            <p class="head-title" style="font-size:10px;cursor:pointer color:#fff; ">Explore <span>Plus</span><img src="image/logo-str.png" width="10px" height="10px"></p>
+                        </a>
+					</div>
+			<div id="mySidenav" class="sidenav hide">
+				<a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+				<a class="nav-item" href="index.html">Home</a>
+				<a class="nav-item" href="login.html">Login</a>
+				<a class="nav-item" href="product.html">offers</a>
+				<a class="nav-item" href="contact.html">Contact us</a>
+				<a class="nav-item" href="about.html">About us</a>
+				<a class="nav-item" href="product.html">Top offers</a>
+				<a class="nav-item" href="product.html">trending offers</a>
+				<a class="nav-item" href="login.html">My account</a>
+						
+			</div>
+		</div>
+	<div class="p-5">
+	
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row pb-5 pl-4	">
+				<div class="col-md-3 col-3 col-sm-4 contact-issue">
+					<div class="">
+						<div class="type"><span>type of issue<span></div>
+							<a href="#"><div class="topic tablinks t-p1" onclick="openCity(event, 'f-help')"><span>Help with your issue</span></div></a>
+							<a href="#"><div class="topic tablinks t-p2" onclick="openCity(event, 'f-help2')"><span>Help with your order</span></div></a>
+							<a href="#"><div class="topic tablinks t-p3" onclick="openCity(event, 'f-help3')"><span>Help with other issue</span></div></a>
+						
+					
+						<div class="type"><span>Help topics</span></div>
+						<a href="#"><div class="topic tablinks" onclick="openCity(event, 'f-plus')"><span>Flipkart plus</span></div></a>
+						<a href="#"><div class="topic tablinks" onclick="openCity(event, 'f-other')"><span>order</span></div></a>
+						<a href="#"><div class="topic tablinks" onclick="openCity(event, 'f-cancel')"><span>Cancellation and return</span></div></a>
+						<a href="#"><div class="topic tablinks" onclick="openCity(event, 'f-payments')"><span>Payments</span></div></a>
+						<a href="#"><div class="topic tablinks" onclick="openCity(event, 'f-wallets')"><span>shopping</span></div></a>
+						<a href="#"><div class="topic tablinks" onclick="openCity(event, 'f-other')"><span>wallet</span></div></a>
+						<a href="#"><div class="topic tablinks" onclick="openCity(event, 'f-plus')"><span>others</span></div></a>
+					</div>
+					
+				</div>
+				<div class="col-md-8 col-9 col-sm-8 ">
+					<div class="contact-hc">
+						<div id="f-plus" class="c-content">
+							<h3>flipkart plus</h3>
+							<a href="#"><p>If I cancel or return an item from my order, will the SuperCoins credited be deducted?</p></a>
+							<a href="#"><p>What is SuperCoins?</p></a>
+							<a href="#"><p>Will I get early access to sale as I'm a Flipkart Plus customer?</p></a>
+							<a href="#"><p>If I cancel or return few items from my order and the order value drops below Rs. 100, will it impact the SuperCoins earned?</p></a>
+							<a href="#"><p>Can I use SuperCoins to buy Gold and Silver Products (Jewellery, Bar, Coin)?</p></a>
+							<a href="#"><p>What is Flipkart Plus program?</p></a>
+							
+						</div>
+						<div id="f-order" class="c-content">
+							<h3>order</h3>
+							
+							<a href="#"><p>I missed the delivery of my order today. What should I do?</p></a>
+							<a href="#"><p>Will the delivery be tried again if I'm not able to collect my order the first time?</p></a>
+							<a href="#"><p>The delivery of my order is delayed. What should I do?</p></a>
+							<a href="#"><p>What should I do if my order is approved but hasn't been shipped yet?</p></a>
+							<a href="#"><p>Can I take the shipment after opening and checking the contents inside?</p></a>
+							<a href="#"><p>How do I know my order has been confirmed?</p></a>
+							
+							
+						</div>
+						<div id="f-cancel" class="c-content">
+							<h3>cancellation and returns</h3>
+							
+							<a href="#"><p>If I request for a replacement, when will I get it?</p></a>
+							<a href="#"><p>Which products are not eligible for returns?</p></a>
+							<a href="#"><p>Can items be returned after the time period mentioned in the seller's Returns Policy?</p></a>
+							<a href="#"><p>Do I have to return the freebie when I return a product?</p></a>
+							<a href="#"><p>How do returns work?</p></a>
+							<a href="#"><p>I see the 'Cancel' button but I can't click on it. Why?</p></a>
+							
+							
+						</div>
+						<div id="f-payments" class="c-content">
+							<h3>payments</h3>
+							
+							<a href="#"><p>What is Flipkart's credit card EMI payment option?</p></a>
+							<a href="#"><p>How can I order for large quantities of the product as part of a corporate order?</p></a>
+							<a href="#"><p>How can I label my saved cards?</p></a>
+							<a href="#"><p>What is a 'card label'?</p></a>
+							<a href="#"><p>What is the 'Save Card' feature?</p></a>
+							<a href="#"><p>How does Flipkart prevent card fraud?</p></a>
+							
+							
+						</div>
+						<div id="f-wallets" class="c-content">
+							<h3>wallet</h3>
+							<a href="#"><p>What can I do if the balance in my wallet is not enough to pay for my order?</p></a>
+						</div>
+						<div id="f-other" class="c-content">
+							<h3>others</h3>
+							<span class="p-2"><span>
+						</div>
+						
+						<div id="f-help" class="c-content">
+							<h3>What issue you are facing?</h3>
+							<a href="#"><p>I want to track my order</p></a>
+							<a href="#"><p>I want to manage my order</p></a>
+							<a href="#"><p>I want help with returns & refunds</p></a>
+							<a href="#"><p>I want help with other issues</p></a>
+							
+						</div>
+						<div id="f-help2" class="c-content">
+							<h3>Facing issue with your order?</h3>
+							
+							<a href="#"><p>I want to track my order</p></a>
+							<a href="#"><p>I want to manage my order</p></a>
+							<a href="#"><p>I want help with returns & refunds</p></a>
+							<a href="#"><p>I want help with other issues</p></a>
+							
+						</div>
+						<div id="f-help3" class="c-content">
+							<h3>Have some other issue?</h3>
+							
+							<a href="#"><p>I want to track my order</p></a>
+							<a href="#"><p>I want to manage my order</p></a>
+							<a href="#"><p>I want help with returns & refunds</p></a>
+							<a href="#"><p>I want help with other issues</p></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" id="hide">
+		<div class="col-md-12 col-12 col-sm-12">
+			<h2>Want to reach us!!!!!! <span onclick="show();" style="cursor:pointer; color:2874f0;">click here</span></h2>
+		</div>
+	</div>
+	<div class="row mb-3" id="contact-id">
+		<div class="col-md-6 contact-map">
+		      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.141024965968!2d77.04221511455603!3d28.475299297931716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19cb3d815e67%3A0x33c5f925339f8edd!2sAnudip%20Foundation!5e0!3m2!1sen!2sin!4v1592019864715!5m2!1sen!2sin" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+		<div class="col-md-6 contact-form">
+			<form>
+				<label for="fname">First Name</label>
+				
+				<input type="text" class="form-control" id="fname" name="firstname" placeholder="Your name.." required><br>
+				<label for="lname">Last Name</label>
+				<input type="text" class="form-control" id="lname" name="lastname" placeholder="Your last name.." required><br>
+				<label for="Email address">Email address</label>
+				<input type="text" class="form-control" id="ename" name="Email address" placeholder="Your Email address.." required><br>
+				<label for="country">Country</label>
+				<select id="country" name="country">
+					<option value="india">India</option>
+					<option value="australia">Australia</option>
+					<option value="canada">Canada</option>
+					<option value="usa">USA</option>
+				</select><br>
+				<label for="subject">Subject</label>
+				<textarea id="subject" class="form-control" name="subject" placeholder="Write something.." style="height:170px"></textarea><br>
+				<input type="submit" style="width:150px; border:none; border-radius:5px; color:#fff; background-color:#2874f0; text-transform:capitalize; font-weight:500; padding:10px;" value="Send">
+			</form>
+		</div>	
+	</div>
+	  
+	  
+	        <div class="footer">
+            <div class="row footer footer-top">
+                <div class="col-md-2 col-sm-4 col-6">
+                    <p class="foot-head">ABOUT</p>
+                    <p class=""><a href="contact.html">Contact us</a></p>
+                    <p class=""><a href="about.html">About us</a></p>
+                    <p class=""><a href="contact.html">Carrers</a></p>
+                    <p class=""><a href="about.html">Flipart stories</a></p>
+                    <p class=""><a href="about.html">Press</a></p>
+                    <p class=""><a href="about.html">Flipart sales</a></p>
+
+                </div>
+                <div class="col-md-2 col-sm-4 col-6">
+                    <p class="foot-head">Help</p>
+                    <p class=""><a href="contact.html">Payments</a></p>
+                    <p class=""><a href="contact.html">Shipping</a></p>
+                    <p class=""><a href="contact.html">Cancellation &amp; Returns</a></p>
+                    <p class=""><a href="contact.html">FAQ</a></p>
+                    <p class=""><a href="contact.html">Report Infringment</a></p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6">
+                    <p class="foot-head">Policy</p>
+                    <p class=""><a href="about.html">Returnc Policy</a></p>
+                    <p class=""><a href="about.html">Terms of use</a></p>
+                    <p class=""><a href="about.html">Security</a></p>
+                    <p class=""><a href="about.html">Privacy</a></p>
+                    <p class=""><a href="about.html">Sitemap</a></p>
+                    <p class=""><a href="about.html">EPR Compliance</a></p>
+                </div>
+                <div class="col-md-2 col-sm-2 col-6">
+                    <p class="foot-head">Social</p>
+                    <p class=""><a href="#">Facebook</a></p>
+                    <p class=""><a href="#">Twitter</a></p>
+                    <p class=""><a href="#">Youtube</a></p>
+                </div>
+                <div class="col-md-2 col-sm-5 col-12">
+                    <p class="foot-head">Mail us</p>
+                    <p class="f-add">Flipkart Internet Private Limited,
+                        Buildings Alyssa, Begonia &
+                        Clove Embassy Tech Village,
+                        Outer Ring Road, Devarabeesanahalli Village,
+                        Bengaluru, 560103,
+                        Karnataka, India
+                    </p>
+                </div>
+                <div class="col-md-2 col-sm-5 col-12 f-ad">
+                    <p class="foot-head">Registered Office address</p>
+                    <p class="f-add">Flipkart Internet Private Limited,
+                        Buildings Alyssa, Begonia &
+                        Clove Embassy Tech Village,
+                        Outer Ring Road, Devarabeesanahalli Village,
+                        Bengaluru, 560103,
+                        Karnataka, India
+                        CIN : U51109KA2012PTC066107</p>
+                </div>
+            </div>
+			
+            <div class="row footer-bottom footer">
+                <div class="col-md-12 pl-5">
+                    <ul class="f-btm">
+                        <li><a href="#"><img src="image/sell.svg"><a href="#"> Sell on flipkart</a></li>
+                        <li><a href="#"><img src="image/advertise.svg"> Advertise</a></li>
+                        <li><a href="#"><img src="image/g-card.svg"> Gift card</a></li>
+                        <li><a href="#"><img src="image/help-center.svg"> Help-center</a></li>
+                        <li><a href="#">&copy; 2007-2020 Flipkart.com</a></li>
+                        <li><img src="image/payment-m.svg" width="auto"></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+	
+
+
+
+
+
+</div>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="js/script.js"></script>
+<script>
+// js for side navigation
+function openNav() {
+  document.getElementById("mySidenav").style.width = "40%";
+  document.getElementById("mySidenav").style.textAlign = "left";
+  document.getElementById("mySidenav").style.color = "#fff";
+  document.getElementById("mySidenav").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+function show(){
+	var hide = document.getElementById("contact-id");
+	var hd = document.getElementById("hide");
+	hd.style.display = "none";
+	hide.removeAttribute("id");
+}
+</script>
+</body>
+</html>
